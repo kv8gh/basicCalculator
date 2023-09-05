@@ -86,7 +86,7 @@ function Transfer(){
             <button onClick={handleClick} value={'2'}>2</button>
             <button onClick={handleClick} value={'3'}>3</button>
             <button onClick={handleOperator} value={'-'}>-</button>
-            <button onClick={handleOperator} value={'0'}>0</button>
+            <button onClick={handleClick} value={'0'}>0</button>
             <button onClick={handleOperator} value={'.'}>.</button>
             <button className='two-span' onClick={calculate}>=</button>
         </div>
